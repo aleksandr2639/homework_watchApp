@@ -24,7 +24,7 @@ const Form = ({ addCity }) => {
         </div>
         <div>
             <label htmlFor="timezone" className="label_timezone">Choose the timezone</label>
-            <input type="number" id="timezone" name="timezone" value={form.timezone} onChange={handleChange} placeholder="Example, Europe" className="input_timezone" required={true}></input>
+            <input type="number" id="timezone" name="timezone" value={form.timezone} onChange={handleChange} placeholder="Example, 1" className="input_timezone" required={true}></input>
         </div>
         <button className="button_submit"></button>
     </form>
